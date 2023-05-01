@@ -36,7 +36,7 @@ export default function Navbar() {
 
 
        </div>
-         <div className={!nav? ' z-10 absolute right-0 top-0 w-[300px] rounded-[10px] h-screen  border-r bg-slate-700 ease-in duration-600':'fixed left-[100%]'}>
+         <div className={!nav? ' z-10 absolute right-0 top-0 w-[300px] rounded-[10px] h-screen  border-r bg-slate-700 ease-in duration-600 xl:hidden':'fixed left-[100%]'}>
              
          <div className=' '><img className=' relative top-6 ml-6 md:ml-12 lg:ml-16 xl:ml-20' src={discordLogo} alt="discord" /> </div>
          <div onClick={Handlenav} className=' relative left-[210px] bottom-1 text-white'> <AiOutlineClose size={23}/></div> 
