@@ -21,8 +21,7 @@ Download for Windows</button>
 </div>
 
 <img className=' relative top-28 md:top-[-132px] md:right-[700px] ' src={leftbglandingheader} alt='center-bg-landing-header'/>
-
-<img className=' absolute hidden md:block md:bottom-[-19px] md:left-[1000px]  ' src={rightbglandingheader} alt='right-bg-landing-header'/> 
+ 
 
        </div> 
       
