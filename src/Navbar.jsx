@@ -11,11 +11,11 @@ export default function Navbar() {
       <div className=' relative' style={{ backgroundColor: "#5865f2" }}> 
       <div  className=' relative flex justify-between items-center h-24 max-w-[12400px] mx-auto '>
 
-      <div className={!nav? ' z-10 fixed right-0 top-0 w-[60%] rounded-[10px] min-h-screen border-r bg-slate-700 ease-in duration-600 xl:hidden':'fixed left-[100%]'}>
+      <div className={!nav? ' z-10 fixed right-0 top-0 w-[85%] rounded-[10px] min-h-screen border-r bg-slate-700 ease-in duration-600 xl:hidden':'fixed left-[100%]'}>
              
              <div className=' '><img className=' relative top-6 ml-6 md:ml-12 lg:ml-16 xl:ml-20' src={discordLogo} alt="discord" /> </div>
-             <div onClick={Handlenav} className=' relative bottom-1 ml-[12rem] text-white'> <AiOutlineClose size={23}/></div> 
-           <div className=' relative border-b w-[180px] bg-white ml-7 top-10'></div>      
+             <div onClick={Handlenav} className=' relative bottom-1 ml-[17rem] text-white'> <AiOutlineClose size={23}/></div> 
+           <div className=' relative border-b w-[243px] bg-white ml-7 top-10'></div>      
              <ul className=' relative grid top-[60px] ml-8 text-white'>
                   <a className=' py-3 hover:underline' href='#Download'>Download</a>
                   <a className=' py-3 hover:underline' href='#Nitro'>Nitro</a>
