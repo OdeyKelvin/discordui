@@ -1,7 +1,7 @@
 import React from 'react'
 import centerbglandingheader from "../assets/center_bg_landing_header.svg";
 import leftbglandingheader from "../assets/left_bg_landing_header.svg";
-import rightbglandingheader from "../assets/right_bg_landing_header.svg";
+import rightbglandingheader from "../assets/right_bg_landing_header.svg"; 
 import {AiOutlineDownload} from 'react-icons/ai'
 export default function Hero() {
   return (
