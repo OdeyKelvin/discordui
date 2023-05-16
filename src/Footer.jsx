@@ -20,8 +20,8 @@ export default function Footer() {
           <div className=' relative mt-12 ml-44 space-y-2 text-blue-700 text-sm md:ml-[40rem] md:bottom-[9.3rem]'>Company
              <ul className=' mt-6 text-white space-y-2'>
             <a className=' hover:underline' href='#about'>About</a>
-            <li className=' hover:underline'>Jobs</li>
-            <li className=' hover:underline'>Brand</li>
+            <li className=''>Jobs</li>
+            <li className=''>Brand</li>
             <li>Newsroom</li>
             </ul>
           </div>

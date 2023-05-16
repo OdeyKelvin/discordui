@@ -31,13 +31,13 @@ export default function Navbar() {
     
         <img className=' relative -top-2 ml-6 md:ml-12top-2 lg:ml-16top-2 xl:ml-20' src={discordLogo} alt="discord" />
         <ul className=' hidden lg:flex relative right-8 text-white  '>
-              <a className=' px-5 hover:underline' href='#Download'>Download</a>
-              <a className='  px-5 hover:underline' href='#Nitro'>Nitro</a>
-              <a className='  px-5 hover:underline' href='#Discover'>Discover</a>
-              <a className='  px-5 hover:underline' href='#Safety'>Safety</a>
-              <a className='  px-5 hover:underline' href='#Support'>Support</a>
-              <a className='  px-5 hover:underline' href='#Blog'>Blog</a>
-              <a className='  px-5 hover:underline' href='#Careers'>Careers</a>
+              <a className=' px-5 hover:underline' href='Download'>Download</a>
+              <a className='  px-5 hover:underline' href='Nitro'>Nitro</a>
+              <a className='  px-5 hover:underline' href='Discover'>Discover</a>
+              <a className='  px-5 hover:underline' href='Safety'>Safety</a>
+              <a className='  px-5 hover:underline' href='Support'>Support</a>
+              <a className='  px-5 hover:underline' href='Blog'>Blog</a>
+              <a className='  px-5 hover:underline' href='Careers'>Careers</a>
                 
             </ul> 
             <section className=' mr-10'>
