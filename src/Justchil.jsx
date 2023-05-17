@@ -10,11 +10,17 @@ export default function Justchil() {
 <p data-Aos="fade-up" className=' relative bottom-3 p-2 ml-[1.2rem] md:top-14 md:text-center md:ml-[32rem] md:right-[14rem]'>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
 <img data-Aos="fade-up" className=' relative bottom-6 p-4 md:w-[76%] md:mr-[45%] md:top-20 md:ml-[8rem]' src={justchilllanding} alt='justchilllanding'/>
      <h1 className='  p-6 text-3xl mb-20 font-bold md:mt-52 md:text-center relative md:top-[-4.5rem]'>Ready to start your journey?</h1>
-     <div className=' relative ml-7 bottom-[3rem] text-white h-[55px] px-10 w-[300px] rounded-[34px] bg-[#5865f2] xl:top-[-4rem] xl:left-[30rem] xl:py-2 xl:mt-3'>
+     <div className=' hidden relative ml-7 bottom-[3rem] text-white h-[55px] px-10 w-[300px] rounded-[34px] bg-[#5865f2] xl:block xl:top-[-4rem] xl:left-[30rem] xl:py-2 xl:mt-3'>
      <button className=' ml-6 -mt-2 text-[17px] xl:mt-[-12px]'> <div className=' relative right-8 top-6 xl:top-'><AiOutlineDownload size={23}/> </div>
 Download from App store</button>
 </div>
      
+<div className=' relative ml-7 bottom-[3rem] text-white h-[68px] px-10 w-[300px] rounded-[34px] bg-[#5865f2] xl:hidden xl:top-[-4rem] xl:left-[30rem] xl:py-2 xl:mt-3'>
+     <button className=' ml-6 -mt-2 text-[17px] xl:mt-[-12px]'> <div className=' relative right-8 top-6 xl:top-'><AiOutlineDownload size={23}/> </div>
+Download from Google Play</button>
+</div>
+
+
        </div>
     </div>
   )
