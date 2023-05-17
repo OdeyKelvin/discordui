@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import discordLogo from "../assets/discord_main_logo.svg";
 import { faTwitter,faInstagram,faFacebook,faTiktok} from '@fortawesome/free-brands-svg-icons'
